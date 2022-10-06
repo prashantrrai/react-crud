@@ -49,7 +49,7 @@ useEffect(() => {
 
 
           <h2>Read Operation</h2>
-          <Link to={"/"}>
+          <Link to={"/react-crud"}>
               <button className='btn btn-primary'>Create</button>
           </Link>
       </div>

@@ -10,9 +10,9 @@ import Update from './component/Update';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/react-crud'>
         <Routes>
-        <Route exact path="/" element={<Create/>}/>
+        <Route exact path="/react-crud" element={<Create/>}/>
         <Route exact path="/read" element={<Read/>}/>
         <Route exact path="/update" element={<Update/>}/>
   
